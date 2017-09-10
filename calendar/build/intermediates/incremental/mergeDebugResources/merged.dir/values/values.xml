@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_10">#16000000</color>
+    <color name="blue_50">#780000FF</color>
+    <color name="transparent">#00000000</color>
+    <color name="white_20">#32FFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="add_thing">일정추가</string>
+    <string name="app_name">Calendar Proto</string>
+    <string name="daily">일간</string>
+    <string name="event_icon">Event icon</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="month">월</string>
+    <string name="monthly">월간</string>
+    <string name="weather_icon">Weather icon</string>
+    <string name="weekly">주간</string>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

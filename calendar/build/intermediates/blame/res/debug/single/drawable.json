@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\build\\intermediates\\res\\merged\\debug\\drawable\\day_cell_bg.xml",
+        "source": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\drawable\\day_cell_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\build\\intermediates\\res\\merged\\debug\\drawable\\dot.xml",
+        "source": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\drawable\\dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\build\\intermediates\\res\\merged\\debug\\drawable\\lineframe.xml",
+        "source": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\drawable\\lineframe.xml"
+    }
+]

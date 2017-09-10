@@ -1,0 +1,2 @@
+include ':app', ':SafeZone', ':Calculator', ':HzGrapher', ':Restful', ':Widget', ':calendar'
+include ':Infinity-ViewPager'

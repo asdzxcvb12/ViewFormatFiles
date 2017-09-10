@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/cnamelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calsavename" />
+
+    <TextView
+        android:id="@+id/cname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/cnamelabel" />
+
+    <TextView
+        android:id="@+id/calculationresultlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cnamelabel"
+        android:text="@string/calculationresult" />
+
+    <TextView
+        android:id="@+id/calculationresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cname"
+        android:layout_toRightOf="@+id/calculationresultlabel" />
+
+    <TextView
+        android:id="@+id/calculationlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calculationresultlabel"
+        android:text="@string/calculation" />
+
+    <TextView
+        android:id="@+id/calculation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calculationresult"
+        android:layout_toRightOf="@+id/calculationlabel" />
+
+</RelativeLayout>

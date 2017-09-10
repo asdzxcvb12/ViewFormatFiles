@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test1.safezone_project.SafeZone_ParentPage">
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/linearLayout4"
+        android:background="@drawable/asasd">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서울 / 경기도"
+            android:id="@+id/ws"
+            android:layout_marginTop="49dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginStart="65dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="강원도"
+            android:id="@+id/wg"
+            android:layout_marginLeft="65dp"
+            android:layout_marginStart="65dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_above="@+id/wcb"
+            android:layout_toRightOf="@+id/ws"
+            android:layout_toEndOf="@+id/ws" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="충청남도"
+            android:id="@+id/wcn"
+            android:layout_marginTop="59dp"
+            android:layout_below="@+id/ws"
+            android:layout_alignLeft="@+id/ws"
+            android:layout_alignStart="@+id/ws"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="충청북도"
+            android:id="@+id/wcb"
+            android:layout_alignBottom="@+id/wcn"
+            android:layout_toRightOf="@+id/ws"
+            android:layout_below="@+id/ws"
+            android:layout_toLeftOf="@+id/wgb"
+            android:layout_toStartOf="@+id/wgb"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="경상북도"
+            android:id="@+id/wgb"
+            android:layout_below="@+id/wcb"
+            android:layout_alignLeft="@+id/wg"
+            android:layout_alignStart="@+id/wg"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="경상남도"
+            android:id="@+id/wgn"
+            android:layout_marginTop="52dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/wgb"
+            android:layout_alignRight="@+id/wg"
+            android:layout_alignEnd="@+id/wg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전라북도"
+            android:id="@+id/wjb"
+            android:gravity="center"
+            android:layout_below="@+id/wgb"
+            android:layout_toLeftOf="@+id/wg"
+            android:layout_alignBottom="@+id/wgn"
+            android:layout_alignLeft="@+id/wcn"
+            android:layout_alignStart="@+id/wcn"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전라남도"
+            android:id="@+id/wjn"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_below="@+id/wjb"
+            android:layout_alignLeft="@+id/wjb"
+            android:layout_alignStart="@+id/wjb" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="제주도"
+            android:id="@+id/ww"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/wjn"
+            android:layout_toStartOf="@+id/wjn"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#f4b9b5b5"
+        android:id="@+id/linearLayout5"></LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/linearLayout5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="날씨입니다."
+            android:id="@+id/ltv"
+            android:layout_below="@+id/linearLayout4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </ScrollView>
+
+</RelativeLayout>

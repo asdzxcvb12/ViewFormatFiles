@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test1.safezone_project.SafeZone_ParentPage">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout6"
+        android:layout_alignLeft="@+id/linearLayout6"
+        android:layout_alignStart="@+id/linearLayout6"
+        android:id="@+id/linearLayout7">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout6"
+        android:layout_below="@+id/textView52"
+        android:layout_alignRight="@+id/textView53"
+        android:layout_alignEnd="@+id/textView53"
+        android:gravity="center"
+        android:paddingBottom="5dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="날씨확인"
+            android:id="@+id/sh" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="지역선택 : "
+            android:id="@+id/textView36"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sisi" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="검색"
+            android:id="@+id/search1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:id="@+id/textView49" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/gugu" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="검색"
+            android:id="@+id/search2" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="동네 예보 : 현재로부터 3일 뒤까지 3시간 간격으로 보여줍니다.\n                 지역을 검색하고 날씨 확인 버튼을 눌러 주세요.\n                 첫번째 검색버튼은 시/도를 두번째는 군/구입니다."
+        android:id="@+id/textView50"
+        android:layout_below="@+id/textView51"
+        android:layout_alignLeft="@+id/textView51"
+        android:layout_alignStart="@+id/textView51" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/textView51"
+        android:background="#f4b9b5b5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/textView52"
+        android:background="#f4b9b5b5"
+        android:layout_below="@+id/textView50"
+        android:layout_alignLeft="@+id/textView50"
+        android:layout_alignStart="@+id/textView50" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/textView53"
+        android:background="#f4b9b5b5"
+        android:layout_above="@+id/linearLayout7"
+        android:layout_alignLeft="@+id/textView52"
+        android:layout_alignStart="@+id/textView52" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/stv"
+        android:layout_below="@+id/linearLayout7"
+        android:layout_alignLeft="@+id/linearLayout7"
+        android:layout_alignStart="@+id/linearLayout7"
+        android:gravity="center"
+        android:background="@drawable/ffsf" />
+
+</RelativeLayout>

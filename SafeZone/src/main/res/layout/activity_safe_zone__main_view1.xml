@@ -1,0 +1,211 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:weightSum="1"
+        android:id="@+id/linearLayout"
+        android:layout_weight="0.23">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.72"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="186dp"
+                android:layout_height="120dp"
+                android:id="@+id/img"
+                android:src="@drawable/clouds"
+                android:layout_weight="0.33" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center|right">
+
+
+            <TextView
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:text="0000/00/00 뭔요일"
+                android:id="@+id/cal"
+                android:layout_gravity="right"
+                android:textSize="16dp"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:text="MM 00:00:00"
+                android:id="@+id/time"
+                android:layout_gravity="right"
+                android:textSize="16dp"
+                android:gravity="right" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OOOO OOO OOO"
+                android:id="@+id/location" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="날씨: 0000 강수확률: 00％ \n      온도: 00℃ 습도: 00"
+                android:id="@+id/weather"
+                android:layout_gravity="right" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_weight="0.3"
+        android:background="#d5d5d5"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.5"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/fir"
+            android:src="@drawable/timer_burned"
+            android:onClick="onClick_timer"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageView4"
+            android:src="@drawable/weather_burned"
+            android:nestedScrollingEnabled="false"
+            android:onClick="onClick_weather"
+            android:layout_alignTop="@+id/imageView8"
+            android:layout_alignLeft="@+id/fir"
+            android:layout_alignStart="@+id/fir" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageView6"
+            android:src="@drawable/flash_burned"
+            android:onClick="onClick_flash"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageView7"
+            android:src="@drawable/record_burned"
+            android:onClick="onClick_recorder"
+            android:layout_alignTop="@+id/imageView6"
+            android:layout_alignLeft="@+id/fir"
+            android:layout_alignStart="@+id/fir" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageView8"
+            android:src="@drawable/gps_burned"
+            android:onClick="onClick_gps"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView9"
+            android:src="@drawable/hello_burned"
+            android:layout_alignBottom="@+id/fir"
+            android:layout_alignRight="@+id/fir"
+            android:layout_alignEnd="@+id/fir"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textView24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPS"
+            android:id="@+id/textView19"
+            android:layout_below="@+id/imageView8"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="날씨"
+            android:id="@+id/textView21"
+            android:layout_alignTop="@+id/textView19"
+            android:layout_alignLeft="@+id/imageView4"
+            android:layout_alignStart="@+id/imageView4"
+            android:layout_alignRight="@+id/imageView4"
+            android:layout_alignEnd="@+id/imageView4"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="플레쉬"
+            android:id="@+id/textView22"
+            android:layout_above="@+id/imageView6"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="녹음/플레이어"
+            android:id="@+id/textView23"
+            android:layout_above="@+id/imageView7"
+            android:layout_toRightOf="@+id/imageView6"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_alignRight="@+id/imageView7"
+            android:layout_alignEnd="@+id/imageView7"
+            android:gravity="right"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="타이머"
+            android:id="@+id/textView24"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_above="@+id/fir"
+            android:layout_alignLeft="@+id/fir"
+            android:layout_alignStart="@+id/fir"
+            android:layout_alignRight="@+id/fir"
+            android:layout_alignEnd="@+id/fir" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.test1.safezone_project.SafeZone_ParentPage"
+    android:background="@drawable/plzp">
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+    </com.google.android.gms.ads.AdView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adView">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:id="@+id/goTime"
+            android:textSize="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110dp" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/stt"
+            android:onClick="timerSetting"
+            android:layout_below="@+id/timerPuase"
+            android:layout_centerHorizontal="true"
+            android:text="SETTING"
+            android:background="@drawable/ddd_burned" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/timerPuase"
+            android:layout_below="@+id/goTime"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:visibility="invisible"
+            android:background="@drawable/vist" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="초기화"
+            android:id="@+id/timerStop"
+            android:layout_alignTop="@+id/timerStart"
+            android:layout_alignRight="@+id/goTime"
+            android:layout_alignEnd="@+id/goTime" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시작"
+            android:id="@+id/timerStart"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/goTime"
+            android:layout_alignStart="@+id/goTime"
+            android:layout_marginTop="37dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

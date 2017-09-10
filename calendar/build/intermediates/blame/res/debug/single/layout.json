@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\build\\intermediates\\res\\merged\\debug\\layout\\te.xml",
+        "source": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\layout\\te.xml"
+    },
+    {
+        "merged": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\build\\intermediates\\res\\merged\\debug\\layout\\oneday.xml",
+        "source": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\layout\\oneday.xml"
+    },
+    {
+        "merged": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_monthly.xml",
+        "source": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\layout\\fragment_monthly.xml"
+    }
+]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/Calculator/Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HzGrapher/HzGrapher.iml" filepath="$PROJECT_DIR$/HzGrapher/HzGrapher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Infinity-ViewPager/Infinity-ViewPager.iml" filepath="$PROJECT_DIR$/Infinity-ViewPager/Infinity-ViewPager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Restful/Restful.iml" filepath="$PROJECT_DIR$/Restful/Restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SafeZone/SafeZone.iml" filepath="$PROJECT_DIR$/SafeZone/SafeZone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewFormatFiles.iml" filepath="$PROJECT_DIR$/ViewFormatFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Widget/Widget.iml" filepath="$PROJECT_DIR$/Widget/Widget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calendar/calendar.iml" filepath="$PROJECT_DIR$/calendar/calendar.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,65 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:1:1-25:12
+	package
+		ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:2:5-48
+		INJECTED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:1:11-69
+uses-sdk
+ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\ghangsub\.android\build-cache\76aa8e0e0fa4d9ba73d1668e9ec580f928c00f15\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\ghangsub\.android\build-cache\5d6f870a1bc92ec7b403368632c607d161f356dc\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\ghangsub\.android\build-cache\28d0542ccb6abe652371fc7d43ec951217392d81\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\ghangsub\.android\build-cache\f26bcaf5d937772a62b86daef3c4d6e19ec17565\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\ghangsub\.android\build-cache\ba83c3e69d0d2451616b72a47688b40869b4149e\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\ghangsub\.android\build-cache\b128f45b139e046bc469f54b4fc17830f240a6f5\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.2.0] C:\Users\ghangsub\.android\build-cache\76aa8e0e0fa4d9ba73d1668e9ec580f928c00f15\output\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:8:9-38
+		INJECTED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:7:9-34
+		INJECTED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:10:5-23:19
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\ghangsub\.android\build-cache\76aa8e0e0fa4d9ba73d1668e9ec580f928c00f15\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\ghangsub\.android\build-cache\5d6f870a1bc92ec7b403368632c607d161f356dc\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\ghangsub\.android\build-cache\28d0542ccb6abe652371fc7d43ec951217392d81\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\ghangsub\.android\build-cache\f26bcaf5d937772a62b86daef3c4d6e19ec17565\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\ghangsub\.android\build-cache\ba83c3e69d0d2451616b72a47688b40869b4149e\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\ghangsub\.android\build-cache\b128f45b139e046bc469f54b4fc17830f240a6f5\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:13:9-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:11:9-43
+	android:icon
+		ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:12:9-45
+activity#de.inovex.android.widgets.example.ViewPagerActivity
+ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:14:9-22:20
+	android:label
+		ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:16:13-45
+	android:name
+		ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:15:13-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from C:\Users\ghangsub\AndroidStudioProjects\ViewFormatFiles\viewPager3DExample\src\main\AndroidManifest.xml:20:27-74

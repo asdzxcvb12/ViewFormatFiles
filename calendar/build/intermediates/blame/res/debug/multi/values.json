@@ -1,0 +1,351 @@
+[
+    {
+        "outputFile": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 44,
+                    "endOffset": 95
+                },
+                "from": {
+                    "file": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 193,
+                        "endColumn": 44,
+                        "endOffset": 233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endColumn": 43,
+                    "endOffset": 139
+                },
+                "from": {
+                    "file": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 43,
+                        "endOffset": 143
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 144,
+                    "endColumn": 47,
+                    "endOffset": 187
+                },
+                "from": {
+                    "file": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 47,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 192,
+                    "endColumn": 44,
+                    "endOffset": 232
+                },
+                "from": {
+                    "file": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 148,
+                        "endColumn": 44,
+                        "endOffset": 188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 237,
+                    "endColumn": 57,
+                    "endOffset": 290
+                },
+                "from": {
+                    "file": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 88,
+                        "endColumn": 57,
+                        "endOffset": 141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 295,
+                    "endColumn": 55,
+                    "endOffset": 346
+                },
+                "from": {
+                    "file": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 55,
+                        "endOffset": 197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 351,
+                    "endColumn": 52,
+                    "endOffset": 399
+                },
+                "from": {
+                    "file": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 161,
+                        "endColumn": 52,
+                        "endOffset": 209
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 404,
+                    "endColumn": 42,
+                    "endOffset": 442
+                },
+                "from": {
+                    "file": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 318,
+                        "endColumn": 42,
+                        "endOffset": 356
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 447,
+                    "endColumn": 51,
+                    "endOffset": 494
+                },
+                "from": {
+                    "file": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 51,
+                        "endOffset": 103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 499,
+                    "endColumn": 36,
+                    "endOffset": 531
+                },
+                "from": {
+                    "file": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 361,
+                        "endColumn": 36,
+                        "endOffset": 393
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 536,
+                    "endColumn": 49,
+                    "endOffset": 581
+                },
+                "from": {
+                    "file": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 268,
+                        "endColumn": 49,
+                        "endOffset": 313
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 586,
+                    "endColumn": 69,
+                    "endOffset": 651
+                },
+                "from": {
+                    "file": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 475,
+                        "endColumn": 69,
+                        "endOffset": 540
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 656,
+                    "endColumn": 52,
+                    "endOffset": 704
+                },
+                "from": {
+                    "file": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 52,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 709,
+                    "endColumn": 35,
+                    "endOffset": 740
+                },
+                "from": {
+                    "file": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 545,
+                        "endColumn": 35,
+                        "endOffset": 576
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 745,
+                    "endColumn": 38,
+                    "endOffset": 779
+                },
+                "from": {
+                    "file": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 436,
+                        "endColumn": 38,
+                        "endOffset": 470
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 784,
+                    "endColumn": 53,
+                    "endOffset": 833
+                },
+                "from": {
+                    "file": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 214,
+                        "endColumn": 53,
+                        "endOffset": 263
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 838,
+                    "endColumn": 37,
+                    "endOffset": 871
+                },
+                "from": {
+                    "file": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 398,
+                        "endColumn": 37,
+                        "endOffset": 431
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 876,
+                    "endLine": 21,
+                    "endColumn": 12,
+                    "endOffset": 1004
+                },
+                "from": {
+                    "file": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 54,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 182
+                    }
+                }
+            }
+        ]
+    }
+]

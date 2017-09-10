@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_gravity="center_horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:id="@+id/layoutGraphView"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_below="@+id/relativeLayout3">
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/relativeLayout3"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+<RadioGroup
+    android:id="@+id/radioGroup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Value"
+                    android:id="@+id/radioValue"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:checked="false"
+                    android:layout_marginRight="20dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Graph"
+        android:id="@+id/radioGraph"
+        android:checked="false"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/radioGroup"
+        android:layout_toEndOf="@+id/radioGroup" />
+
+</RadioGroup>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Graph1 : Graph1"
+                    android:id="@+id/GraphOne"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/radioGroup"
+                    android:layout_toEndOf="@+id/radioGroup"
+                    android:layout_marginLeft="119dp"
+                    android:layout_marginStart="119dp"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Graph2 : Graph2"
+                    android:id="@+id/GraphTwo"
+                    android:layout_below="@+id/GraphOne"
+                    android:layout_alignLeft="@+id/GraphOne"
+                    android:layout_alignStart="@+id/GraphOne" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Graph3 : Graph3"
+                    android:id="@+id/GraphThree"
+                    android:layout_below="@+id/GraphTwo"
+                    android:layout_alignLeft="@+id/GraphTwo"
+                    android:layout_alignStart="@+id/GraphTwo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Max x : 5"
+                    android:id="@+id/MaxX"
+                    android:layout_above="@+id/MaxY"
+                    android:layout_toRightOf="@+id/radioGroup"
+                    android:layout_toEndOf="@+id/radioGroup"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Max y : 10"
+                    android:id="@+id/MaxY"
+                    android:layout_below="@+id/GraphOne"
+                    android:layout_toRightOf="@+id/radioGroup"
+                    android:layout_toEndOf="@+id/radioGroup" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="horizon"
+                    android:id="@+id/horizon"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="save"
+                    android:id="@+id/saveGraph"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/horizon"
+                    android:layout_toStartOf="@+id/horizon" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:orientation="vertical"
+                android:layout_below="@+id/relativeLayout3"
+                android:id="@+id/layoutValueView">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#d6d3d3"></RelativeLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Max X : "
+                        android:id="@+id/textView2"
+                        android:layout_marginLeft="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:id="@+id/maxXval" />
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="X값 변경"
+                        android:id="@+id/btnX"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Max Y : "
+                        android:id="@+id/textView6" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:id="@+id/maxYval" />
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="Y값 변경"
+                        android:id="@+id/btnY"
+                        android:textSize="10dp"
+                        android:layout_marginLeft="10dp" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Defualt값 적용"
+                        android:id="@+id/xyDefault"
+                        android:checked="false"
+                        android:textAllCaps="false"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#d6d3d3"
+                    android:layout_gravity="right" />
+
+                <RelativeLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Graph1 활성화"
+                        android:id="@+id/cbG1"
+                        android:checked="false"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Graph1 name : "
+                        android:id="@+id/textView3"
+                        android:layout_above="@+id/g1Name"
+                        android:layout_alignLeft="@+id/textView7"
+                        android:layout_alignStart="@+id/textView7" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Graph1  value : y = "
+                        android:id="@+id/textView7"
+                        android:layout_below="@+id/textView3"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Graph1"
+                        android:id="@+id/tv_g1N"
+                        android:layout_alignBottom="@+id/textView3"
+                        android:layout_toRightOf="@+id/textView3"
+                        android:layout_toEndOf="@+id/textView3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ｘ"
+                        android:id="@+id/g1Val"
+                        android:layout_alignBottom="@+id/textView7"
+                        android:layout_toRightOf="@+id/textView7"
+                        android:layout_toEndOf="@+id/textView7" />
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="이름 변경"
+                        android:id="@+id/g1Name"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toLeftOf="@+id/g1CV"
+                        android:layout_toStartOf="@+id/g1CV"
+                        android:enabled="true" />
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="식 변경"
+                        android:id="@+id/g1CV"
+                        android:layout_alignTop="@+id/g1Name"
+                        android:layout_alignRight="@+id/cbG1"
+                        android:layout_alignEnd="@+id/cbG1"
+                        android:enabled="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#252424"
+                    android:layout_gravity="center_horizontal" />
+
+                <RelativeLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal" >
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="이름 변경"
+                        android:id="@+id/g2Name"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toLeftOf="@+id/g2CV"
+                        android:layout_toStartOf="@+id/g2CV"
+                        android:enabled="true" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Graph2 활성화"
+                        android:id="@+id/cbG2"
+                        android:checked="false"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Graph2 name : "
+                        android:id="@+id/textView10"
+                        android:layout_above="@+id/g2Name"
+                        android:layout_alignLeft="@+id/textView11"
+                        android:layout_alignStart="@+id/textView11" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Graph2  value : y = "
+                        android:id="@+id/textView11"
+                        android:layout_below="@+id/textView10"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Graph2"
+                        android:id="@+id/tv_g2N"
+                        android:layout_alignBottom="@+id/textView10"
+                        android:layout_toRightOf="@+id/textView10"
+                        android:layout_toEndOf="@+id/textView10" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ｘ"
+                        android:id="@+id/g2Val"
+                        android:layout_alignBottom="@+id/textView11"
+                        android:layout_toRightOf="@+id/textView11"
+                        android:layout_toEndOf="@+id/textView11" />
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="식 변경"
+                        android:id="@+id/g2CV"
+                        android:layout_alignTop="@+id/g2Name"
+                        android:layout_alignRight="@+id/cbG2"
+                        android:layout_alignEnd="@+id/cbG2"
+                        android:enabled="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#252424"
+                    android:layout_gravity="center_horizontal" />
+
+                <RelativeLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal" >
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="이름 변경"
+                        android:id="@+id/g3Name"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toLeftOf="@+id/g3CV"
+                        android:layout_toStartOf="@+id/g3CV"
+                        android:enabled="true" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Graph3 활성화"
+                        android:id="@+id/cbG3"
+                        android:checked="false"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Graph3 name : "
+                        android:id="@+id/textView14"
+                        android:layout_above="@+id/g3Name"
+                        android:layout_alignLeft="@+id/textView15"
+                        android:layout_alignStart="@+id/textView15" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Graph3  value : y = "
+                        android:id="@+id/textView15"
+                        android:layout_below="@+id/textView14"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Graph3"
+                        android:id="@+id/tv_g3N"
+                        android:layout_alignBottom="@+id/textView14"
+                        android:layout_toRightOf="@+id/textView14"
+                        android:layout_toEndOf="@+id/textView14" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ｘ"
+                        android:id="@+id/g3Val"
+                        android:layout_alignBottom="@+id/textView15"
+                        android:layout_toRightOf="@+id/textView15"
+                        android:layout_toEndOf="@+id/textView15" />
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="식 변경"
+                        android:id="@+id/g3CV"
+                        android:layout_alignTop="@+id/g3Name"
+                        android:layout_alignRight="@+id/cbG3"
+                        android:layout_alignEnd="@+id/cbG3"
+                        android:enabled="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#d6d3d3"
+                    android:layout_gravity="center_horizontal" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

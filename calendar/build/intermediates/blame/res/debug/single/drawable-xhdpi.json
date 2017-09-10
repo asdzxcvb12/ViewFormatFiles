@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\rainy.png",
+        "source": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\drawable-xhdpi\\rainy.png"
+    },
+    {
+        "merged": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\snowy.png",
+        "source": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\drawable-xhdpi\\snowy.png"
+    },
+    {
+        "merged": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\cloudy.png",
+        "source": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\drawable-xhdpi\\cloudy.png"
+    },
+    {
+        "merged": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\sunny.png",
+        "source": "C:\\Users\\ghangsub\\AndroidStudioProjects\\ViewFormatFiles\\calendar\\src\\main\\res\\drawable-xhdpi\\sunny.png"
+    }
+]
